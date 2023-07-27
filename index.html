@@ -38,12 +38,11 @@
 </head>
 <body class="open-sans-font">
     <header class="container mx-auto">
+      <!-- navbar section -->
         <nav class="px-6 lg:px-8 ">
 
           <div class="navbar bg-base-100 pt-8  flex lg:hidden">
-
-
-            <div class="navbar-start">
+             <div class="navbar-start">
               <div class="  flex">
                 <img src="./images/logo.png" alt="">
                 <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
@@ -73,10 +72,7 @@
            
           </div> 
 
-
-             
-           
-              <!-- large device -->
+            <!-- large device -->
               <div class="  hidden lg:flex  justify-between items-center px-7 py-4   bg-rose-500 rounded-full text-white  mt-14 mb-10">
                 <div class="   ">
                   <ul class="flex gap-10 ">
@@ -277,12 +273,20 @@
                 <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
                 <div class="w-56 mx-auto"><hr></div> 
                 <p class="text-base font-medium">Apples</p>
-                <div class="rating  text-center ">
-                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500" />
-                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500" checked />
-                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500" />
-                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500" />
-                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500" />
+                <div class="rating rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+
+
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-1" class="mask mask-star-2 bg-rose-500  mask-half-2" />
                 </div>
                 <div class="card-actions justify-center">
                       
@@ -297,13 +301,21 @@
                   </div>
                  <h2 class="text-2xl font-bold">Apples</h2>
                  <p class="py-4 text-base font-medium text-gray-600">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                  <div class="rating  text-center ">
-                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" checked />
-                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-               </div>
+                 <div class="rating rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+  
+  
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                </div>
                <div class="modal-action flex justify-center">
                <!-- if there is a button in form, it will close the modal -->
               <button class="btn text-rose-500 border border-rose-500 bg-white">Close</button>
@@ -324,13 +336,23 @@
               <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
               <div class="w-56 mx-auto"><hr></div> 
               <p class="text-base font-medium">Orange</p>
-              <div class="rating  text-center ">
-                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500" checked />
-                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500" />
+
+              <div class="rating rating-half">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+
+
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
               </div>
+             
               <div class="card-actions justify-center">
                    
               
@@ -343,13 +365,23 @@
                   </div>
                  <h2 class="text-2xl font-bold mt-5">Orange</h2>
                  <p class="py-4 text-base font-medium text-gray-600">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                  <div class="rating  text-center ">
-                 <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" checked />
-                 <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-               </div>
+
+                 <div class="rating rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+  
+  
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                </div>
+                  
                <div class="modal-action flex justify-center"> 
                <!-- if there is a button in form, it will close the modal -->
                <button class="btn text-rose-500 border border-rose-500 bg-white">Close</button>
@@ -369,12 +401,20 @@
               <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
               <div class="w-56 mx-auto"><hr></div> 
               <p class="text-base font-medium">Red Dragon</p>
-              <div class="rating  text-center ">
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating--10-3" class="mask mask-star-2 bg-rose-500" checked  />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500" />
+              <div class="rating rating-half">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+
+
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-3" class="mask mask-star-2 bg-rose-500  mask-half-2" />
               </div>
               <div class="card-actions justify-center">
                 
@@ -387,13 +427,22 @@
                    </div>
                   <h2 class="text-2xl font-bold mt-5">Red Dragon</h2>
                   <p class="py-4 text-base font-medium text-gray-600">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                   <div class="rating  text-center ">
-                  <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                 <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" checked />
-                  <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                 <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                 <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                </div>
+                  <div class="rating rating-half">
+                    <input type="radio" name="rating-10" class="rating-hidden" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+    
+    
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                    <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  </div>
+                   
                 <div class="modal-action flex justify-center"> 
                 <!-- if there is a button in form, it will close the modal -->
                 <button class="btn text-rose-500 border border-rose-500 bg-white">Close</button>
@@ -413,12 +462,20 @@
               <h2 class="text-2xl font-bold">12.90$ - 18.85$</h2>
               <div class="w-56 mx-auto"><hr></div> 
               <p class="text-base font-medium">Banana</p>
-              <div class="rating  text-center ">
-                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" checked />
-                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500" />
+              <div class="rating rating-half">
+                <input type="radio" name="rating-10" class="rating-hidden" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+
+
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                <input type="radio" name="rating-10-4" class="mask mask-star-2 bg-rose-500  mask-half-2" />
               </div>
               <div class="card-actions justify-center">
                
@@ -431,13 +488,21 @@
                   </div>
                  <h2 class="text-2xl font-bold mt-5">Banana</h2>
                  <p class="py-4 text-base font-medium text-gray-600">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
-                  <div class="rating  text-center ">
-                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" checked />
-                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-                <input type="radio" name="rating-2" class="mask mask-star-2 bg-rose-500" />
-               </div>
+                 <div class="rating rating-half">
+                  <input type="radio" name="rating-10" class="rating-hidden" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2"  />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" checked/>
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+  
+  
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-1" />
+                  <input type="radio" name="rating-10-2" class="mask mask-star-2 bg-rose-500  mask-half-2" />
+                </div>
                <div class="modal-action flex justify-center"> 
                <!-- if there is a button in form, it will close the modal -->
                <button class="btn text-rose-500 border border-rose-500 bg-white">Close</button>
@@ -458,13 +523,18 @@
       <!-- Meet the team section-->
        <section class=" px-6 lg:px-8 py-5 my-10">
         <div class="hero min-h-screen bg-cover bg-team-bg" >
-          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-overlay bg-opacity-70"></div>
           <div class=" hero-content text-center text-neutral-content ">
             <div class="">
-              <h1 class="mb-6 text-3xl md:text-5xl  font-extrabold">Meet the team section</h1>
+               <div class="hidden md:flex justify-center">
+                <h1 class="mb-6 text-3xl md:text-5xl  font-extrabold">Meet the team section</h1>
+               </div>
+               <div class="flex md:hidden justify-center mt-5">
+                <h1 class="mb-6 text-3xl md:text-5xl  font-extrabold">Meet the team </h1>
+               </div>
               <p class="mb-5 text-base font-medium lg:w-[615px] mx-auto">Contrary to popular belief, is not simply random text. It has roots in a piece of classical.Latin literature from 45 BC, making it over 2000 years old.</p>
               <!-- teams container -->
-            <div class=" flex flex-col md:flex-row gap-10 lg:gap-28">
+            <div class=" flex flex-col md:flex-row  md:gap-10 lg:gap-28">
               <!-- first team -->
               <div class="card  py-12">
                 <figure><img src="./images/member1.png" alt="fruit" /></figure>
@@ -560,14 +630,15 @@
        <!-- Why Choose Us -->
        <section class=" px-6 lg:px-8 py-5 my-10">
             <div class="text-center">
-               <h3 class="text-5xl font-extrabold">Why Choose Us </h3>
-               <p class="text-base font-medium text-gray-700 lg:w-2/5 mx-auto mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
+               
+                <h3 class="text-3xl md:text-5xl font-extrabold ">Why Choose Us </h3>
+                <p class="text-base font-medium text-gray-700 lg:w-2/5 mx-auto mt-6 mb-12">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. </p>
             </div>
-            <!--  -->
+         
           <div class="flex flex-col lg:flex-row gap-5 ">
-            <!-- first div s -->
+            <!-- first section start -->
              <div class="flex flex-col-reverse lg:flex-row gap-5">
-                <!-- one part s -->
+                <!--first section one part -->
                   <div>
                   <!-- 1 -->
                   <div>
@@ -582,7 +653,7 @@
                          </div>
                       </div>
                     </div>
-                    <p class="text-base font-medium text-gray-700 ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <p class="text-base font-medium text-gray-700 text-center lg:text-left lg:ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
                 </div>
 
                 <!-- 2 -->
@@ -598,7 +669,7 @@
                        </div>
                     </div>
                   </div>
-                  <p class="text-base font-medium text-gray-700 ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="text-base font-medium text-gray-700 text-center lg:text-left lg:ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
               <!-- 3 -->
               <div>
@@ -613,19 +684,20 @@
                      </div>
                   </div>
                 </div>
-                <p class="text-base font-medium text-gray-700 ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                <p class="text-base font-medium text-gray-700 text-center lg:text-left lg:ml-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
 
                  </div>
-               <!-- one part e -->
-               <!-- two part s -->
+               
+               <!-- first section two part -->
                 <div class=" flex justify-center">
                   <img class="h-[430px] max-w[250px]" src="./images/whychoose1.png" alt="">
                 </div>
-               <!-- two part e -->
+               
              </div>
-             <!-- first div e -->
-             <div class="flex justify-end">
+             <!-- first section end -->
+             <!-- third section -->
+             <div class="flex justify-center lg:justify-end">
               <div class="text-right">
                 <!-- 1 -->
                 <div>
@@ -641,7 +713,7 @@
                       <img class="w-3 h-4" src="./images/fruit 1.jpg" alt="">
                     </button>
                   </div>
-                  <p class="text-base font-medium text-gray-700 mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                  <p class="text-base font-medium text-gray-700 text-center lg:text-right  lg:mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
               </div>
 
               <!-- 2 -->
@@ -658,7 +730,7 @@
                     <img class=" w-3 h-4 " src="./images/ice-cream 1.jpg" alt="">
                   </button>
                 </div>
-                <p class="text-base font-medium text-gray-700 lg:mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                <p class="text-base font-medium text-gray-700 text-center lg:text-right lg:mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
             </div>
             <!-- 3 -->
             <div>
@@ -674,7 +746,7 @@
                   <i class="fa-regular fa-thumbs-up"></i>
                 </button>
               </div>
-              <p class="text-base font-medium text-gray-700 mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+              <p class="text-base font-medium text-gray-700 text-center lg:text-right lg:mr-9 mt-3 mb-12">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
           </div>
 
               </div> 
@@ -685,6 +757,7 @@
       </section>
 
     </main>
+    <!-- footer section -->
     <footer class="bg-black py-20 text-white space-y-10">
       <div class="flex justify-center gap-2 items-center">
         <img src="./images/logo.png" alt="">
